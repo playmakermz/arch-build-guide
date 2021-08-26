@@ -1,0 +1,1 @@
+# simple-arch-install
