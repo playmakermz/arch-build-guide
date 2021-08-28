@@ -1,5 +1,10 @@
 # Build Desktop With Arch linux 
 
+
+Build Desktop Operating system using arch linux from zero to complete 
+will take a lot of time for new user who don't have any experience in 
+Building their dekstop from scr
+
 Membangun Operating system mengunakan arch linux dari awal hingga selesai akan 
 mengambil waktu yang banyak kepada pengguna baru 
 atau yang masih belum pernah mencoba mebangun dekstop mereka sendiri.
@@ -28,6 +33,5 @@ Jika anda menemui masalah silahakan buka issue baru ( seperti masalah network at
 itu akan sangat membantu saya. atau mungkin jika anda ingin menambahkan sesuatu
 silahakan pull request repo saya.
 
-~~~
 #### Refrensi
 

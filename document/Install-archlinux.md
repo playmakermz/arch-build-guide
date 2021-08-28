@@ -75,6 +75,13 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S networkmanager
 systemctl enable NetworkManager
 ```
+# Install VGA amd 
+```
+sudo pacman -S xorg xorg-xinit
+sudo pacman -S xterm xorg-tw 
+sudo pacman -S mesa xf86-video-amdgpu xf86-video-ati libva-mesa-driver vulkan-radeon 
+```
+src <https://github.com/archlinux/archinstall/blob/master/archinstall/lib/hardware.py>
 # reboot
 ```
 exit # exit chroot
