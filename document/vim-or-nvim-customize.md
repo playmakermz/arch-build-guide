@@ -87,13 +87,13 @@ endfunction
 #### Emmet start
 ``` ctrl + e + , ```
 #### start and enable
-1. SPUpdate , 2. SPInstall , 3.  keluar dan masuk kembali
-#### neovim dan clipboard
-```yay -S neovim-gtk ``` nvim cara mengunakannya ``` "+y ``` atau ```\y```
+1. SPUpdate , 2. SPInstall ,
+#### neovim and clipboard
+```yay -S neovim-gtk ``` nvim  copy to a clipboard type ``` "+y ``` or ```\y```
 #### Format html
 src <https://linux.die.net/man/1/tidy>
 ```tidy -m index.html```
 #### recommended vim theme 
-<https://github.com/dracula/vim> # ini bisa untuk vim
+<https://github.com/dracula/vim> 
 #### add pip package
 ```pip install --user pynvim```
