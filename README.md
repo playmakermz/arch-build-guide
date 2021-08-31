@@ -3,17 +3,11 @@
 
 Build Desktop Operating system using arch linux from zero to complete 
 will take a lot of time for new user who don't have any experience in 
-Building their dekstop from scr
+Building their dekstop from source.
 
-Membangun Operating system mengunakan arch linux dari awal hingga selesai akan 
-mengambil waktu yang banyak kepada pengguna baru 
-atau yang masih belum pernah mencoba mebangun dekstop mereka sendiri.
+The goal of this project is to build arch linux from zero to daily usage computer
 
-Tujuan dari documentasi ini adalah memberikan  saran dan contoh konfigurasi
-untuk membangun suatu Desktop mengunakan arch linux dari awal hingga selesai
-agar desktop yang sudah dibangun bisa digunakan sehari-hari
-
-beberapa tahapan yang akan dilakukan adalah sebagai berikut:
+several steps for build desktop arch:
 
 - Install arch
 - Configure Network
@@ -27,11 +21,10 @@ beberapa tahapan yang akan dilakukan adalah sebagai berikut:
 - ranger
 
 # Contributing
-Saya masih belum terbiasa dengan open source community,
-saya ingin menjadi bagian dari open source community.
-Jika anda menemui masalah silahakan buka issue baru ( seperti masalah network atau etc)
-itu akan sangat membantu saya. atau mungkin jika anda ingin menambahkan sesuatu
-silahakan pull request repo saya.
+
+if you ecounter problem feel free to open issue, or if you want to add 
+something feel free to pull request.
+
 
 #### Refrensi
 

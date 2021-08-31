@@ -1,9 +1,9 @@
 ## SpaceVim 
-saran gunakan ```pacman -S gvim ``` ,
+recommended ```pacman -S gvim ``` ,
 ``` curl -sLf https://spacevim.org/install.sh | bash ```, ```ls | grep 'ls'```
 + install ``` pip install --user pynvim```
 
-area .SpaceVim.d/init.toml
+location .SpaceVim.d/init.toml
 ```
 #=============================================================================
 # basic.toml --- basic configuration example for SpaceVim
@@ -76,12 +76,10 @@ merged = false
 #### spacevim bootstrap
 ```
 function! myspacevim#before() abort
-" sebelum load src https://github.com/SpaceVim/SpaceVim/issues/1869
 let g:spacevim_relativenumber = 0
 endfunction
 
 function! myspacevim#after() abort
-    " sesudah load
 endfunction
 
 " area .SpaceVim.d/autoload/myspacevim.vim 
@@ -95,7 +93,7 @@ endfunction
 #### Format html
 src <https://linux.die.net/man/1/tidy>
 ```tidy -m index.html```
-#### saran theme vim
+#### recommended vim theme 
 <https://github.com/dracula/vim> # ini bisa untuk vim
-#### tambah pip 
+#### add pip package
 ```pip install --user pynvim```

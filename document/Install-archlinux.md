@@ -75,7 +75,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S networkmanager
 systemctl enable NetworkManager
 ```
-# Install VGA amd 
+# Install VGA for amd device 
 ```
 sudo pacman -S xorg xorg-xinit
 sudo pacman -S xterm xorg-tw 

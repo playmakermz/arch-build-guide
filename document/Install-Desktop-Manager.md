@@ -14,9 +14,17 @@ Penggunaan Sehari-hari. ( Ada Beberapa Saran Desktop Manager Yang belum saya bua
 Seperti Awesome Desktop manager atau DWM, Saya Sarankan Anda Melihat dulu Desktop Manager seperti apa itu
 Di youtube Atau platfrom lain)
 
+after installing Operating system i sugest try installing Desktop Manager it's will give a big help to 
+user for their daily usage. in this section i only sugest two desktop manager because there is a ton 
+desktop manager is open and worth it to use.
+
+if you prefer tiling window manager:
+- awesome <https://awesomewm.org/>
+- qtile <http://www.qtile.org/>
+
 ## Install Kde Plasma
 ```
-sudo pacman -Syu # Ingat Setelah Update biasakan untuk reboot
+sudo pacman -Syu # optional rebot the device after update system 
 sudo pacman -S xorg plasma plasma-wayland-session kde-applications
 sudo systemctl enable sddm.service
 reboot
