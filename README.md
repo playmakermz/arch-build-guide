@@ -12,16 +12,16 @@ The goal of this project is to build arch linux from zero to daily usage compute
 
 several steps for build desktop arch:
 
-- Install arch
-- Configure Network
-- Install desktop Environtment
-- Configure Desktop and tiling script
-- Aplikasi Tambahan 
-- Install printer
-- fish shell
-- vim or nvim
-- next cloud 
-- ranger
+- [Install arch](document/Install-archlinux.md)
+- [Configure Network](document/configure-network-r8188eu.md)
+- [Install desktop Environtment](document/Install-Desktop-Manager.md)
+- [Configure Desktop KDE](document/Customize-KDE-Desktop.md)
+- [Recommended application](document/recommendation-application.md)
+- [Install printer](document/CUPS-Printer.md)
+- [fish shell](document/fish-shell.md)
+- [vim or nvim](document/vim-or-nvim-customize.md)
+- [next cloud and virtualbox](document/nextcloud-self-host.md)
+- [ranger file manager](document/ranger-file-manager.md)
 
 # Contributing
 
