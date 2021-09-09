@@ -71,6 +71,10 @@ configure shortcut di kde
 src <https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/> |||
 ``` sudo pacman -S bluez bluez-utils blueman ``` |||
 ``` lsmod | grep btusb ; sudo vim /etc/bluetooth/main.conf ; sudo systemctl enable bluetooth.service ```AutoEnable=true
+```sudo pacman -S pulseaudio pulseaudio-bluetooth```
+```systemctl --user enable/start pulseaudio.service/socket```
+<https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/>
+<https://bbs.archlinux.org/viewtopic.php?id=201496>
 
 #### Disable kde wallet
 <https://bbs.archlinux.org/viewtopic.php?id=202174>
