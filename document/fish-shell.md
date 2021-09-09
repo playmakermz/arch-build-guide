@@ -30,10 +30,10 @@ end
 ```
 omf remove themename
 ```
-## install find launcher
-```
-yay -S ulauncher
-# kata kunci ctrl + space
-```
+## Konsole ( kde terminal )
+set fish to default use
+`vim /etc/shells # add /usr/bin/fish`
+`chsh -s /usr/bin/fish`
+`/usr/bin/fish # in konsole profile`
 #### refrensi 
-<https://github.com/oh-my-fish/oh-my-fish> <br> <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> 
+<https://github.com/oh-my-fish/oh-my-fish> <br> <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> <br> <https://fishshell.com/docs/current/>
