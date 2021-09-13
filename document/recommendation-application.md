@@ -1,3 +1,5 @@
+### Open termial before Display manager
+type `ctrl +alt +F2`
 ### Set Timezone
 ```
 set timezone Asia/Jakarta
