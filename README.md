@@ -22,6 +22,7 @@ several steps for build desktop arch:
 - [vim or nvim](document/vim-or-nvim-customize.md)
 - [next cloud and virtualbox](document/nextcloud-self-host.md)
 - [ranger file manager](document/ranger-file-manager.md)
+- [Ventoy](document/Ventoy.md)
 
 # Contributing
 
