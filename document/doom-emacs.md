@@ -31,6 +31,8 @@ xrdb /dev/null # type this
 ```
  
 #### Refrences
+- [How to install Doom EMACS from dtube](https://pastebin.com/Ku0bPz1U)
+- [EMACS Key Bindings](https://caiorss.github.io/Emacs-Elisp-Programming/Keybindings.html)
 - <https://askubuntu.com/questions/23645/how-do-i-download-the-command-line-emacs-instead-of-the-gui-one>
 - <https://forums.centos.org/viewtopic.php?t=49498>
 - <https://bbs.archlinux.org/viewtopic.php?id=228982/>
