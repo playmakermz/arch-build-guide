@@ -23,6 +23,11 @@ several steps for build desktop arch:
 - [next cloud and virtualbox](document/nextcloud-self-host.md)
 - [ranger file manager](document/ranger-file-manager.md)
 - [Ventoy](document/Ventoy.md)
+- [doom-emacs](document/doom-emacs.md)
+
+***
+##### Tested with manjaro
+- [Manjaro Gaming](document/Manjaro-gaming.md)
 
 # Contributing
 
