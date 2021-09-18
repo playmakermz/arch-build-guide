@@ -42,7 +42,7 @@ xrdb /dev/null # type this
 - `spc f f` Search file
 - `q` quit buffer 
 - `ctrl + v` yank
-- `spc + h + k` help section keybinding
+- `spc + h + b + b` help section keybinding
 - 
  
 #### Refrences
