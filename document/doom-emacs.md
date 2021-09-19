@@ -41,9 +41,15 @@ xrdb /dev/null # type this
 ### Key bindings
 - `spc f f` Search file
 - `q` quit buffer 
-- `ctrl + v` yank
-- `spc + h + b + b` help section keybinding
-- 
+- `ctrl v` yank
+- `spc h b b` help section keybinding
+- `:e DIR` edit file
+- `spc f p` Find file in private config
+- `spc q r` Restart emacs
+- `l` Open file in dired
+- `spc b B` switch buffer
+- `spc f s` Save file
+- `spc b k` kill buffer
  
 #### Refrences
 - [Emacs key binding helpher](https://emacs.stackexchange.com/questions/63752/keybindings-for-doom-emacs)
