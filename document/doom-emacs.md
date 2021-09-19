@@ -43,19 +43,27 @@ xrdb /dev/null # type this
 - `q` quit buffer 
 - `ctrl v` yank
 - `spc h b b` help section keybinding
-- `:e DIR` edit file
 - `spc f p` Find file in private config
 - `spc q r` Restart emacs
-- `l` Open file in dired
+- `l and h` Open file in dired (dired +icons +ranger)
 - `spc b B` switch buffer
 - `spc f s` Save file
 - `spc b k` kill buffer
+- `spc o t` open terminal
+- `spc h t` load and select theme
+
+### Key binding vim
+-`:e DIR` edit file
+
+#### Set theme as default
+open config.el, change doom theme as you like ( doom theme name, you can find with `spc h t` )
  
 #### Refrences
 - [Emacs key binding helpher](https://emacs.stackexchange.com/questions/63752/keybindings-for-doom-emacs)
 - [Doom-emacs key Bindings](https://github.com/hlissner/doom-emacs/blob/develop/modules/config/default/%2Bevil-bindings.el)
 - [How to install Doom EMACS from dtube](https://pastebin.com/Ku0bPz1U)
 - [EMACS Key Bindings](https://caiorss.github.io/Emacs-Elisp-Programming/Keybindings.html)
+- https://www.youtube.com/watch?v=E_NP40OsxZk
 - <https://lordgrenville.github.io/posts/Emacs/>
 - <https://askubuntu.com/questions/23645/how-do-i-download-the-command-line-emacs-instead-of-the-gui-one>
 - <https://forums.centos.org/viewtopic.php?t=49498>
