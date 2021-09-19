@@ -53,7 +53,8 @@ xrdb /dev/null # type this
 - `spc h t` load and select theme
 
 ### Key binding vim
--`:e DIR` edit file
+- `:e DIR` edit file
+- `:wq` save file
 
 #### Set theme as default
 open config.el, change doom theme as you like ( doom theme name, you can find with `spc h t` )
