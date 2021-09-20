@@ -48,9 +48,12 @@ xrdb /dev/null # type this
 - `l and h` Open file in dired (dired +icons +ranger)
 - `spc b B` switch buffer
 - `spc f s` Save file
-- `spc b k` kill buffer
+- `spc b k` kill all buffer
+- `spc b d` kill selected buffet
 - `spc o t` open terminal
 - `spc h t` load and select theme
+- `spc h d h` open documentation
+- `spc h d s` list DOOM modules
 
 ### Key binding vim
 - `:e DIR` edit file
