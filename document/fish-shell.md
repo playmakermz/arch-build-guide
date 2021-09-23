@@ -5,7 +5,7 @@ Using fish shell to make Terminal more beautiful
 ```
 curl -L https://get.oh-my.fish > install
 fish install --path=~/.local/share/omf --config=~/.config/omf
-# lakukan configure terminal agar fish bisa paten
+# (optional) Configure your terminal. to always use fish shell
 ```
 ## Install theme and use theme
 ```
@@ -17,9 +17,9 @@ omf list
 ```
 set -g theme_nerd_fonts yes
 set theme_color_scheme nord  
-## untuk membuat ini selalu jalan / default
+## to make this option always default
 vim ~/.config/fish/config.fish  
-## isi dari config.fish
+## inside config.fish
 if status is-interactive
 # Commands to run in interactive sessions can go here
 set theme_color_scheme nord
@@ -32,8 +32,6 @@ omf remove themename
 ```
 ## Konsole ( kde terminal )
 set fish to default use
-`vim /etc/shells # add /usr/bin/fish`
-`chsh -s /usr/bin/fish`
-`/usr/bin/fish # in konsole profile`
+Set `/usr/bin/fish` inside console profile 'command' form
 #### refrensi 
 <https://github.com/oh-my-fish/oh-my-fish> <br> <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> <br> <https://fishshell.com/docs/current/>
