@@ -24,6 +24,7 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ```
 emacs -nw
 echo alias emacs=\"emacs -nw\" >> ~/.bashrc # make CLI emacs as default
+echo alias emacs=\"emacs -nw\" >> ~/.config/fish/config.fish # make doom emacs cli as default in fish shell
 ```
 ## Start doom emacs
 
@@ -67,6 +68,7 @@ open config.el, change doom theme as you like ( doom theme name, you can find wi
 - [Doom-emacs key Bindings](https://github.com/hlissner/doom-emacs/blob/develop/modules/config/default/%2Bevil-bindings.el)
 - [How to install Doom EMACS from dtube](https://pastebin.com/Ku0bPz1U)
 - [EMACS Key Bindings](https://caiorss.github.io/Emacs-Elisp-Programming/Keybindings.html)
+- http://fishshell.com/docs/current/tutorial.html#:~:text=Unlike%20other%20shells%2C%20fish%20has,name%2C%20and%20then%20its%20value.
 - https://www.youtube.com/watch?v=E_NP40OsxZk
 - <https://lordgrenville.github.io/posts/Emacs/>
 - <https://askubuntu.com/questions/23645/how-do-i-download-the-command-line-emacs-instead-of-the-gui-one>
