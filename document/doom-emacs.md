@@ -64,6 +64,7 @@ xrdb /dev/null # type this
 open config.el, change doom theme as you like ( doom theme name, you can find with `spc h t` )
  
 #### Refrences
+- [Emacs doom cheatsheat](https://naghdbishi.ir/Doom-Emacs-Cheat-Sheet/README.html#org7d3274f)
 - [Emacs key binding helpher](https://emacs.stackexchange.com/questions/63752/keybindings-for-doom-emacs)
 - [Doom-emacs key Bindings](https://github.com/hlissner/doom-emacs/blob/develop/modules/config/default/%2Bevil-bindings.el)
 - [How to install Doom EMACS from dtube](https://pastebin.com/Ku0bPz1U)
