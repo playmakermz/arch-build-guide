@@ -104,3 +104,6 @@ src <https://linux.die.net/man/1/tidy>
 #### recommended vim theme 
 <https://github.com/dracula/vim> 
 
+## Pranala
+- https://github.com/SpaceVim/SpaceVim/blob/master/docs/install.sh
+
