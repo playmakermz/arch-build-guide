@@ -1,15 +1,18 @@
 ## SpaceVim 
 recommended ```pacman -S gvim ``` ,
-``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
-` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
+- ``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
+- ` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
 
 ## Requirement
-`pacman -S neovim vim gvim lua python-pip`
-`yay -S nevim-gtk vim-gtk-recent-git`
-`pip install --user pynvim pylint yapf autoflake isort overage`
+- `pacman -S neovim vim gvim lua python-pip`
+- `yay -S nevim-gtk vim-gtk-recent-git`
+- `pip install --user pynvim pylint yapf autoflake isort overage`
 
 ## Key-binding
-`spc f v d` open init.toml
+- `spc f v d` open init.toml
+- `\y` atau `"+y` copy to clipboard
+- `:SPUpdate` update spacevim
+- `SPInstall` Install plugin
 
 ## edit init.toml
 location .SpaceVim.d/init.toml
@@ -101,8 +104,6 @@ endfunction
 ``` ctrl + e + , ```
 #### start and enable
 1. SPUpdate , 2. SPInstall ,
-#### neovim and clipboard
-```yay -S neovim-gtk ``` nvim  copy to a clipboard type ``` "+y ``` or ```\y```
 #### Format html
 src <https://linux.die.net/man/1/tidy>
 ```tidy -m index.html```
