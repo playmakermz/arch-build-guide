@@ -78,6 +78,8 @@ name = 'format'
 
 [[layers]]
 name = "lang#html"
+emmet_leader_key = "<C-e>"
+emmet_filetyps = ['html']
 
 [[layers]]
 name = 'lang#python'
@@ -92,8 +94,9 @@ merged = false
 #### spacevim bootstrap
 ```
 function! myspacevim#before() abort
-let g:spacevim_relativenumber = 0
-set timeoutlen=0
+" let g:spacevim_relativenumber = 0
+let g:user_emmet_leader_key='<c-e>'
+
 endfunction
 
 function! myspacevim#after() abort
