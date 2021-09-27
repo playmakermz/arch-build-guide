@@ -114,7 +114,7 @@ endfunction
 1. SPUpdate , 2. SPInstall ,
 #### Format html
 src <https://linux.die.net/man/1/tidy>
-```tidy -m index.html```
+```tidy -im index.html```
 #### recommended vim theme 
 <https://github.com/dracula/vim> 
 
