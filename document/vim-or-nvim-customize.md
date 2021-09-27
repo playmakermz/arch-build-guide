@@ -1,10 +1,23 @@
 ## SpaceVim 
 recommended ```pacman -S gvim ``` ,
-``` curl -sLf https://spacevim.org/install.sh | bash ```, ```ls | grep 'ls'```
-+ install ``` pip install --user pynvim```
+``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
+` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
+
+### Requirement
+`pacman -S neovim vim gvim lua python-pip`
+`yay -S nevim-gtk vim-gtk-recent-git`
+`pip install --user pynvim pylint yapf autoflake isort overage`
 
 location .SpaceVim.d/init.toml
 ```
+#=============================================================================
+# basic.toml --- basic configuration example for SpaceVim
+# Copyright (c) 2016-2020 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
 #=============================================================================
 # basic.toml --- basic configuration example for SpaceVim
 # Copyright (c) 2016-2020 Wang Shidong & Contributors
@@ -18,7 +31,7 @@ location .SpaceVim.d/init.toml
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer, the value of this option is a string.
-    colorscheme = "afterglow"
+    colorscheme = "onedark"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors, the type of the value is boolean, true or false.
@@ -54,23 +67,18 @@ default_height = 30
 
 [[layers]]
 name = 'format'
-format_on_save = true
 
 [[layers]]
 name = "lang#html"
-format_on_save = true
 
 [[layers]]
 name = 'lang#python'
-format_on_save = true
 
 [[custom_plugins]]
-repo = 'danilo-augusto/vim-afterglow'
+repo = 'joshdick/onedark.vim'
 merged = false
 
-[[custom_plugins]]
-repo = 'Shougo/vimproc.vim'
-merged = false
+
 
 ```
 #### spacevim bootstrap
@@ -95,5 +103,4 @@ src <https://linux.die.net/man/1/tidy>
 ```tidy -m index.html```
 #### recommended vim theme 
 <https://github.com/dracula/vim> 
-#### add pip package
-```pip install --user pynvim```
+
