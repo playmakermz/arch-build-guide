@@ -8,6 +8,10 @@ recommended ```pacman -S gvim ``` ,
 `yay -S nevim-gtk vim-gtk-recent-git`
 `pip install --user pynvim pylint yapf autoflake isort overage`
 
+## Key-binding
+`spc f v d` open init.toml
+
+## edit init.toml
 location .SpaceVim.d/init.toml
 ```
 #=============================================================================
@@ -85,6 +89,7 @@ merged = false
 ```
 function! myspacevim#before() abort
 let g:spacevim_relativenumber = 0
+set timeoutlen=0
 endfunction
 
 function! myspacevim#after() abort
@@ -106,4 +111,5 @@ src <https://linux.die.net/man/1/tidy>
 
 ## Pranala
 - https://github.com/SpaceVim/SpaceVim/blob/master/docs/install.sh
+- https://github.com/mattn/emmet-vim
 
