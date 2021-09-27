@@ -3,7 +3,7 @@ recommended ```pacman -S gvim ``` ,
 ``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
 ` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
 
-### Requirement
+## Requirement
 `pacman -S neovim vim gvim lua python-pip`
 `yay -S nevim-gtk vim-gtk-recent-git`
 `pip install --user pynvim pylint yapf autoflake isort overage`
