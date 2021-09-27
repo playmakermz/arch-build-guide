@@ -57,6 +57,7 @@ location .SpaceVim.d/init.toml
     enable_statusline_mode = true
     bootstrap_before = 'myspacevim#before'
     bootstrap_after = 'myspacevim#after'
+    #disabled_plugins = ['emmet-vim']
 
 
 # Enable autocomplete layer
@@ -73,12 +74,12 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
-[[layers]]
-name = 'format'
+#[[layers]]
+#name = 'format'
 
 [[layers]]
 name = "lang#html"
-emmet_leader_key = "<C-e>"
+emmet_leader_key = "<c-e>"
 emmet_filetyps = ['html']
 
 [[layers]]
@@ -88,6 +89,9 @@ name = 'lang#python'
 repo = 'joshdick/onedark.vim'
 merged = false
 
+[[custom_plugins]]
+repo = 'mattn/emmet-vim'
+merged = false
 
 
 ```
