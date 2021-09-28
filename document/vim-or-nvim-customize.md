@@ -17,6 +17,10 @@ recommended ```pacman -S gvim ``` ,
 
 ## edit init.toml
 location .SpaceVim.d/init.toml
+<details> <summary> SpaceVim My config </summary>
+    
+### Source-code :
+    
 ```
 #=============================================================================
 # basic.toml --- basic configuration example for SpaceVim
@@ -130,6 +134,8 @@ endfunction
 
 " area .SpaceVim.d/autoload/myspacevim.vim 
 ```
+</details>    
+
 #### Emmet start
 ``` ctrl + e + , ```
 #### start and enable
