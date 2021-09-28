@@ -74,8 +74,14 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
-#[[layers]]
-#name = 'format'
+[[layers]]
+name = 'format'
+enable = true
+format_on_save = true
+
+[[layers]]
+  name = "git"
+  git_plugin = 'fugitive'
 
 [[layers]]
 name = "lang#html"
@@ -85,6 +91,23 @@ emmet_filetyps = ['html']
 [[layers]]
 name = 'lang#python'
 
+[[layers]]
+name = "checkers"
+show_cursor_error = false # untuk bisa mengunakan fitur ini, hidupkan dulu
+
+[[layers]]
+  name = "autocomplete"
+
+[[layers]]
+  name = "colorscheme"
+
+[[layers]]
+    name = 'core'
+    filetree_show_hidden = true
+    enable_smooth_scrolling = true
+    filetree_opened_icon = ''
+    filetree_closed_icon = ''
+
 [[custom_plugins]]
 repo = 'joshdick/onedark.vim'
 merged = false
@@ -92,7 +115,6 @@ merged = false
 [[custom_plugins]]
 repo = 'mattn/emmet-vim'
 merged = false
-
 
 ```
 #### spacevim bootstrap
