@@ -138,9 +138,9 @@ show_cursor_error = false # untuk bisa mengunakan fitur ini, hidupkan dulu
 repo = 'joshdick/onedark.vim'
 merged = false
 
-[[custom_plugins]]
-repo = 'mattn/emmet-vim'
-merged = false
+#[[custom_plugins]]
+#repo = 'mattn/emmet-vim'
+#merged = false
 
 
 ```
