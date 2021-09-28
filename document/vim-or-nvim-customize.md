@@ -13,6 +13,8 @@ recommended ```pacman -S gvim ``` ,
 - `\y` atau `"+y` copy to clipboard
 - `:SPUpdate` update spacevim
 - `SPInstall` Install plugin
+- `spc '` open terminal
+- `spc f t` open file tree
 
 ## edit init.toml
 location .SpaceVim.d/init.toml
