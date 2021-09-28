@@ -3,7 +3,6 @@ recommended ```pacman -S gvim ``` ,
 - ``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
 - ` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
 - `curl -sLf https://spacevim.org/install.sh | bash -s -- -v` spacevim version
-- 
 ## Requirement
 - `pacman -S neovim vim gvim lua python-pip`
 - `yay -S nevim-gtk vim-gtk-recent-git`
@@ -70,41 +69,51 @@ name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "cycle"
 
+# copy paste to clipboard
 [[layers]]
 name = "default"
 
+# start shell spc '
 [[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
 
+# format file, 
 [[layers]]
 name = 'format'
 enable = true
 format_on_save = true
 
+# version control GIT
 [[layers]]
   name = "git"
   git_plugin = 'fugitive'
 
+# emmet 
 [[layers]]
 name = "lang#html"
 emmet_leader_key = "<c-e>"
 emmet_filetyps = ['html']
 
+# Python 
 [[layers]]
 name = 'lang#python'
 
+# check mistake
 [[layers]]
 name = "checkers"
 show_cursor_error = false # untuk bisa mengunakan fitur ini, hidupkan dulu
 
+# autocomplete
 [[layers]]
   name = "autocomplete"
 
+# colorscheme
 [[layers]]
   name = "colorscheme"
 
+# file tree 
 [[layers]]
     name = 'core'
     filetree_show_hidden = true
@@ -112,6 +121,17 @@ show_cursor_error = false # untuk bisa mengunakan fitur ini, hidupkan dulu
     filetree_opened_icon = ''
     filetree_closed_icon = ''
 
+# sudo. start spc f w. using 
+[[layers]]
+  name = "sudo"
+
+# tmux 
+[[layers]]
+  name = "tmux"
+  tmux_navigator_modifier = "alt"
+
+
+# ======================== Custom plugins
 [[custom_plugins]]
 repo = 'joshdick/onedark.vim'
 merged = false
@@ -120,8 +140,9 @@ merged = false
 repo = 'mattn/emmet-vim'
 merged = false
 
+
 ```
-#### spacevim bootstrap
+## spacevim bootstrap
 ```
 function! myspacevim#before() abort
 " let g:spacevim_relativenumber = 0
