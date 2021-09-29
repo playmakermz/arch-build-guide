@@ -16,13 +16,13 @@ omf list
 ## select theme for bobthefish
 ```
 set -g theme_nerd_fonts yes
-set theme_color_scheme nord  
+set theme_color_scheme base16
 ## to make this option always default
 vim ~/.config/fish/config.fish  
 ## inside config.fish
 if status is-interactive
 # Commands to run in interactive sessions can go here
-set theme_color_scheme nord
+set theme_color_scheme base16
 end
 
 ```
