@@ -16,6 +16,10 @@ recommended ```pacman -S gvim ``` ,
 - `spc '` open terminal
 - `spc f t` open file tree
 
+## Open HTML in CLI browser
+type `w3m index.html` in terminal.
+
+
 ## edit init.toml
 location .SpaceVim.d/init.toml
 <details> <summary> SpaceVim My config </summary>
@@ -172,4 +176,5 @@ src <https://linux.die.net/man/1/tidy>
 ## Pranala
 - https://github.com/SpaceVim/SpaceVim/blob/master/docs/install.sh
 - https://github.com/mattn/emmet-vim
+- https://www.fosslinux.com/18554/how-to-access-website-using-command-line-from-the-terminal.htm
 
