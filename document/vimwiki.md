@@ -46,3 +46,6 @@ _italic_ -- italic text
 ```
 :h vimwiki-syntax
 ```
+
+## External link
+- https://github.com/vimwiki/vimwiki
