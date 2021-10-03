@@ -34,4 +34,7 @@ omf remove themename
 set fish to default use
 Set `/usr/bin/fish` inside console profile 'command' form
 #### refrensi 
-<https://github.com/oh-my-fish/oh-my-fish> <br> <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> <br> <https://fishshell.com/docs/current/>
+- <https://github.com/oh-my-fish/oh-my-fish> 
+- <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> 
+- <https://fishshell.com/docs/current/>
+- https://askubuntu.com/questions/300832/run-same-command-again-but-as-root
