@@ -20,6 +20,7 @@ several steps for build desktop arch:
 - [Install printer](document/CUPS-Printer.md)
 - [fish shell](document/fish-shell.md)
 - [vim or nvim](document/vim-or-nvim-customize.md)
+- [vimwiki](document/vimwiki.md)
 - [next cloud and virtualbox](document/nextcloud-self-host.md)
 - [ranger file manager](document/ranger-file-manager.md)
 - [Ventoy](document/Ventoy.md)
