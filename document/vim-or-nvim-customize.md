@@ -67,6 +67,7 @@ location .SpaceVim.d/init.toml
     bootstrap_before = 'myspacevim#before'
     bootstrap_after = 'myspacevim#after'
     #disabled_plugins = ['emmet-vim']
+    filemanager = 'nerdtree'
 
 
 # Enable autocomplete layer
@@ -136,6 +137,12 @@ show_cursor_error = false # untuk bisa mengunakan fitur ini, hidupkan dulu
   name = "tmux"
   tmux_navigator_modifier = "alt"
 
+[[layers]]
+  name = "ui"
+
+# bookmark
+[[layers]]
+name = 'tools'
 
 # ======================== Custom plugins
 [[custom_plugins]]
@@ -145,6 +152,8 @@ merged = false
 #[[custom_plugins]]
 #repo = 'mattn/emmet-vim'
 #merged = false
+
+
 
 
 ```
