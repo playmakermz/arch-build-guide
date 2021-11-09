@@ -25,6 +25,7 @@ several steps for build desktop arch:
 - [ranger file manager](document/ranger-file-manager.md)
 - [Ventoy](document/Ventoy.md)
 - [doom-emacs](document/doom-emacs.md)
+- [asciinema](document/asciinema.md)
 
 ***
 ##### Tested with manjaro
