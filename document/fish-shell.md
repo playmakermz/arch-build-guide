@@ -7,6 +7,8 @@ curl -L https://get.oh-my.fish > install
 fish install --path=~/.local/share/omf --config=~/.config/omf
 # (optional) Configure your terminal. to always use fish shell
 ```
+atau 
+`curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
 ## Install theme and use theme
 ```
 omf install bobthefish
