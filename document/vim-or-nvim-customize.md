@@ -5,6 +5,7 @@ recommended ```pacman -S gvim ``` ,
 - `curl -sLf https://spacevim.org/install.sh | bash -s -- -v` spacevim version
 ## Requirement
 - `pacman -S neovim vim gvim lua python-pip`
+- `sudo apt install vim-gtk3` # if you using debian based
 - `yay -S neovim-gtk vim-gtk-recent-git`
 - `pip install --user pynvim pylint yapf autoflake isort overage`
 
