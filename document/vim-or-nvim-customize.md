@@ -49,7 +49,7 @@ location .SpaceVim.d/init.toml
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer, the value of this option is a string.
-    colorscheme = "onedark"
+    colorscheme = "dracula"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors, the type of the value is boolean, true or false.
@@ -154,7 +154,10 @@ merged = false
 #repo = 'mattn/emmet-vim'
 #merged = false
 
-
+[[custom_plugins]]
+  repo = "dracula/vim"
+  name = "dracula"
+  merged = false
 
 
 ```
@@ -184,6 +187,7 @@ src <https://linux.die.net/man/1/tidy>
 <https://github.com/dracula/vim> 
 
 ## Pranala
+- https://draculatheme.com/vim
 - https://github.com/SpaceVim/SpaceVim/blob/master/docs/install.sh
 - https://github.com/mattn/emmet-vim
 - https://www.fosslinux.com/18554/how-to-access-website-using-command-line-from-the-terminal.htm
