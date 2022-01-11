@@ -20,6 +20,11 @@ recommended ```pacman -S gvim ``` ,
 ## Open HTML in CLI browser
 type `w3m index.html` in terminal.
 
+## auto line break 
+src: https://stackoverflow.com/questions/9131271/vim-auto-line-break
+
+`:set tw=80`
+
 
 ## edit init.toml
 location .SpaceVim.d/init.toml
