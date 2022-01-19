@@ -27,6 +27,7 @@ several steps for build desktop arch:
 - [doom-emacs](document/doom-emacs.md)
 - [asciinema](document/asciinema.md)
 - [Disk utility](document/disk.md)
+- [Tabby terminal](document/tabby.md)
 - [Droidcam](document/droidcam.md)
 
 ***
