@@ -12,6 +12,7 @@ atau
 ## Install theme and use theme
 ```
 omf install bobthefish
+omf install ocean
 omf theme bobthefish
 omf list
 ```
