@@ -29,6 +29,7 @@ several steps for build desktop arch:
 - [Disk utility](document/disk.md)
 - [Tabby terminal](document/tabby.md)
 - [Droidcam](document/droidcam.md)
+- [amix-vimrc](document/amix-vimrc.md)
 
 ***
 ##### Tested with manjaro
