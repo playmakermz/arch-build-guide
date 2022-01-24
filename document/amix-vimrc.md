@@ -26,11 +26,13 @@ Plug 'whatyouhide/vim-gotham'
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vimrc'
 Plug 'othree/html5.vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'joshdick/onedark.vim'
 
 
 call plug#end()
 
-colorscheme afterglow
+colorscheme onedark
 
 " ================ Mapping ===========
 
@@ -38,6 +40,8 @@ vmap <C-c> "+y
 " For copy paste, using vim-gtk3
 
 "============== Settings ==============
+set background=dark
+set syntax = on
 
 filetype on 
 " Highlight cursor line underneath the cursor horizontally.
@@ -45,6 +49,8 @@ set cursorline
 
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
+
+
 
 
 ```
