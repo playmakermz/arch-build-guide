@@ -11,7 +11,7 @@ recommended ```pacman -S gvim ``` ,
 
 ## Key-binding
 - `spc f v d` open init.toml
-- `\y` atau `"+y` copy to clipboard
+- `\y` or `"+y` or `"*y` copy to clipboard
 - `:SPUpdate` update spacevim
 - `SPInstall` Install plugin
 - `spc '` open terminal
