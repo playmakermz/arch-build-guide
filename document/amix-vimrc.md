@@ -6,7 +6,7 @@ git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 `
 
-## Example
+## Example for vimrc
 `vmap <C-c> "+y`
 
 "For copy paste, using vim-gtk3
@@ -29,12 +29,10 @@ Plug 'othree/html5.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
 
-
 call plug#end()
+" PlugUpdate / PlugInstall 
 
-colorscheme onedark
-
-" ================ Mapping ===========
+================ Mapping ===========
 
 vmap <C-c> "+y
 " For copy paste, using vim-gtk3
@@ -50,9 +48,7 @@ set cursorline
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
 
-
-
-
+colorscheme onedark
 ```
 
 ## For more information about vim mapping
