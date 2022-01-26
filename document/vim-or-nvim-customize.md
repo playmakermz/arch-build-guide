@@ -16,6 +16,7 @@ recommended ```pacman -S gvim ``` ,
 - `SPInstall` Install plugin
 - `spc '` open terminal
 - `spc f t` open file tree
+- `/` to search, type the search patterns, and press `n` to find next or press `N` to find previous
 
 ## Open HTML in CLI browser
 type `w3m index.html` in terminal.
@@ -196,4 +197,4 @@ src <https://linux.die.net/man/1/tidy>
 - https://github.com/SpaceVim/SpaceVim/blob/master/docs/install.sh
 - https://github.com/mattn/emmet-vim
 - https://www.fosslinux.com/18554/how-to-access-website-using-command-line-from-the-terminal.htm
-
+- https://linuxize.com/post/vim-search/
