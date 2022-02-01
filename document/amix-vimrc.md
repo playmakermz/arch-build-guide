@@ -53,6 +53,9 @@ noremap! <Leader><tab> <esc>gg=G<C-o><C-o>zz
 vmap <C-c> "+y
 " For copy paste, using vim-gtk3
 nmap <C-q> :q! 
+" Exit file 
+nmap <C-s> =G
+" Indentation file , go to top file 'gg'
 
 "============== Settings ==============
 set background=dark
