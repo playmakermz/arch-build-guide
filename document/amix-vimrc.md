@@ -35,6 +35,7 @@ Plug 'danilo-augusto/vim-afterglow'
 Plug 'whatyouhide/vim-gotham'
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vimrc'
+Plug 'ap/vim-css-color'
 Plug 'othree/html5.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
@@ -47,46 +48,48 @@ colorscheme afterglow
 
 " ================ Mapping ===========
 
-noremap! <Leader><tab> <esc>gg=G<C-o><C-o>zz
-" auto indent file
+noremap! <Leader><tab> <esc>gg=G<C-o><C-o>zz 
+" auto indent file 
 vmap <C-c> "+y
 " For copy paste, using vim-gtk3
-nmap <C-q> :q!
+nmap <C-q> :q! 
 
 "============== Settings ==============
 set background=dark
 
-" background dark
+" background dark 
 filetype indent on
 set smartindent
-autocmd BufRead,BufWritePre *.sh normal gg=G"
+autocmd BufRead,BufWritePre *.sh normal gg=G" 
 
-" auto indent
+" auto indent 
 " Type (gg=G)
-" to start indent the whole file
+" to start indent the whole file 
 " refrence https://unix.stackexchange.com/questions/19945/auto-indent-format-code-for-vim/19963
 
-filetype on
+filetype on 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
 
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
 
-" vim emmet key
+" vim emmet key 
 let g:user_emmet_leader_key='<c-e>'
 
 " ============= Autocompletion
-filetype plugin on
+filetype plugin on 
 set omnifunc=syntaxcomplete#Complete
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
 " Press <C-x> and <C-o> to start autocompletion
-" press <C-n> check the matches file
+" press <C-n> check the matches file 
+
 
 
 ```
+
 
 ## For more information about vim mapping
 - https://www.techrepublic.com/blog/linux-and-open-source/create-custom-keybindings-in-vim/
