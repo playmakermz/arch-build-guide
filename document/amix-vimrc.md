@@ -55,8 +55,10 @@ vmap <C-c> "+y
 nmap <C-q> :q! 
 " Exit file 
 nmap <C-s> =G
-" Indentation file , go to top file 'gg'
+" Indentation file, move cursor to the top of file and press C-s 
 
+
+"
 "============== Settings ==============
 set background=dark
 
@@ -88,6 +90,7 @@ set omnifunc=syntaxcomplete#Complete
 
 " Press <C-x> and <C-o> to start autocompletion
 " press <C-n> check the matches file 
+
 
 
 
