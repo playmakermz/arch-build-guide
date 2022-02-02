@@ -1,5 +1,5 @@
 # Amix-vimrc
-![just-sample-vim](aset/Screenshot from 2022-02-02 13-11-22.png)
+![just-sample-vim](../aset/Screenshot from 2022-02-02 13-11-22.png)
 
 [Amix-vimrc](https://github.com/amix/vimrc)
 
