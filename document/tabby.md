@@ -1,5 +1,5 @@
 ## Tabby installation
-![example](../aset/Screenshot from 2022-02-02 13-06-57.png)
+![example](../aset/example-tabby.png)
 
 If you using ubuntu based, then install .deb package 
 
