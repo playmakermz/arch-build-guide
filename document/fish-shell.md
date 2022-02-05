@@ -40,3 +40,4 @@ Set `/usr/bin/fish` inside console profile 'command' form
 - <https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md> 
 - <https://fishshell.com/docs/current/>
 - https://askubuntu.com/questions/300832/run-same-command-again-but-as-root
+- [ Set Fish shell as default ](https://askubuntu.com/questions/26439/how-do-i-set-fish-as-the-default-shell)
