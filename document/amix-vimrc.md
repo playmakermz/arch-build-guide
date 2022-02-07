@@ -15,6 +15,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+Install Node js 
+```
+sudo apt install nodejs npm
+```
+
 ## Example for vimrc
 - `vmap <C-c> "+y`
 "For copy paste, using vim-gtk3
