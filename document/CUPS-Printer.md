@@ -11,3 +11,6 @@ Install Driver Printer using CUPS, This method is work with TS307, i think this 
 ##### Refrensi
 <https://askubuntu.com/questions/547131/kde-5-plasma-printer-configuration-module-not-found> <br>
 <https://gist.github.com/notdodo/660a2a67b9bc8a815ba537530137636a>
+
+### If you need to enable printer g1020 in ubuntu based
+[only for ubuntu or debian based](https://github.com/playmakermz/pustaka/wiki/ubuntu-based-printer-g1020)
