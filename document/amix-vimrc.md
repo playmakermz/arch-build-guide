@@ -18,6 +18,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 Install Node js 
 ```
 sudo apt install nodejs npm
+npm install n -g
+sudo n stable # untuk install versi stable 
 ```
 
 ## Example for vimrc
@@ -117,4 +119,5 @@ set omnifunc=syntaxcomplete#Complete
 
 ## Refrence 
 - https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim
+- https://stackoverflow.com/questions/10075990/upgrading-node-js-to-latest-version
 
