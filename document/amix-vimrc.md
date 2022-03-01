@@ -33,7 +33,7 @@ must have node js installed and vim plug
 1. Open vimrc, and add `Plug 'neoclide/coc.nvim', {'branch': 'release'}`
 2. `PlugInstall`
 3. open vim and type in vim console 
-4. `:CocInstall coc-tsserver coc-json coc-html coc-css coc-pyright`
+4. `:CocInstall coc-tsserver coc-json coc-html coc-css coc-pyright coc-snippets coc-solargraph`
 
 
 ## My vimrc (~/.vim_runtime/my_configs.vim)
