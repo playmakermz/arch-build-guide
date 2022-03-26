@@ -172,6 +172,7 @@ merged = false
 function! myspacevim#before() abort
 " let g:spacevim_relativenumber = 0
 let g:user_emmet_leader_key='<c-e>'
+vmap <C-c> "+y
 
 endfunction
 
