@@ -3,6 +3,10 @@ recommended ```pacman -S gvim ``` ,
 - ``` curl -sLf https://spacevim.org/install.sh | bash ``` # install both vim and neovim
 - ` curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall` uninstall spacevim
 - `curl -sLf https://spacevim.org/install.sh | bash -s -- -v` spacevim version
+```
+ curl -sLf https://spacevim.org/install.sh | bash -s -- --install vim
+ curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
+```
 ## Requirement
 - `pacman -S neovim vim gvim lua python-pip`
 - `sudo apt install vim-gtk3` # if you using debian based
