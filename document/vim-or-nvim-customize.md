@@ -34,6 +34,8 @@ src: https://stackoverflow.com/questions/9131271/vim-auto-line-break
 ## edit init.toml
 location .SpaceVim.d/init.toml
 <details> <summary> SpaceVim My config </summary>
+ 
+ - pilih basic mode
     
 ### Source-code :
     
