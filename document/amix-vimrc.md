@@ -45,6 +45,7 @@ must have node js installed and vim plug
 
 ## My vimrc (~/.vim_runtime/my_configs.vim)
 use this path(~/.vim_runtime/my_configs.vim) not .vimrc
+( .config/nvim/init.vim ) for nvim
 ```
 call plug#begin('~/.vim/plugged')
 
