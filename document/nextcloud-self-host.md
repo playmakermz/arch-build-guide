@@ -17,10 +17,11 @@ sudo pacman -Syu virtualbox-guest-utils
 1. Gunakan ubuntu server ( oracle virtual box )
 2. sudo snap install nextcloud
 3. sudo nextcloud.manual-install username-anda password-anda
-4. sudo nextcloud.occ config:system:set trusted_domains 1 --value=example.com # untuk domain gunakan ip contoh 192.168.100.10
-5. sudo nextcloud.occ config:system:get trusted_domains
-6. sudo nextcloud.enable-https self-signed
-7. sudo ufw allow 80,443/tcp
+4. ifconfig -a ( check ip address )
+5. sudo nextcloud.occ config:system:set trusted_domains 1 --value=example.com # untuk domain gunakan ip contoh 192.168.100.10
+6. sudo nextcloud.occ config:system:get trusted_domains
+7. sudo nextcloud.enable-https self-signed
+8. sudo ufw allow 80,443/tcp
 
 
 
