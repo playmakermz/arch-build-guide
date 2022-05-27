@@ -30,6 +30,7 @@ several steps for build desktop arch:
 - [Tabby terminal](document/tabby.md)
 - [Droidcam](document/droidcam.md)
 - [amix-vimrc](document/amix-vimrc.md)
+- [Anaconda](document/conda.md)
 
 ***
 ##### Tested with manjaro
