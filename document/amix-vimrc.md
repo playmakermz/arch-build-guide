@@ -34,6 +34,9 @@ sudo n stable # untuk install versi stable
 For using emmet 
 - `<C-x>` and `<C-n>` to start select code completion 
 - `<C-n>` to find matches file 
+- "Ctrl + n" for text auto completion
+- ":tabnew" open new tab
+- "gt" move around tab
 
 ## Vim code completion
 must have node js installed and vim plug 
