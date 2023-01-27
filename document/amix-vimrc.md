@@ -118,6 +118,9 @@ set omnifunc=syntaxcomplete#Complete
 
 ```
 
+## Vim CheatSheet
+- https://vim.rtorr.com/
+
 
 ## For more information about vim mapping
 - https://www.techrepublic.com/blog/linux-and-open-source/create-custom-keybindings-in-vim/
