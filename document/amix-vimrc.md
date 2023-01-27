@@ -31,7 +31,7 @@ sudo n stable # untuk install versi stable
 - `vmap <C-c> "+y`
 "For copy paste, using vim-gtk3
 - `<c-e>`
-For using emmet 
+For using emmet | ctrl + e + leader(,)
 - `<C-x>` and `<C-n>` to start select code completion 
 - `<C-n>` to find matches file 
 - "Ctrl + n" for select text auto completion
