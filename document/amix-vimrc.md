@@ -37,6 +37,7 @@ For using emmet | ctrl + e + leader(,)
 - "Ctrl + n" for select text auto completion
 - ":tabnew" open new tab
 - "gt" move around tab
+- <c-m> | ctrl + m for auto format 
 
 ## Vim code completion
 must have node js installed and vim plug 
@@ -65,7 +66,8 @@ Plug 'othree/html5.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plugin 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'maksimr/vim-jsbeautify'
 
 
 call plug#end()
@@ -116,12 +118,25 @@ set omnifunc=syntaxcomplete#Complete
 " Vim Indent display
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkred   ctermbg=3
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgreen ctermbg=4
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
 " Vim JsBeautify formatter
+" https://github.com/maksimr/vim-jsbeautify
+".vimrc
+map <c-m> :call JsBeautify()<cr>
+" or
+autocmd FileType javascript noremap <buffer>  <c-m> :call JsBeautify()<cr>
+" for json
+autocmd FileType json noremap <buffer> <c-m> :call JsonBeautify()<cr>
+" for jsx
+autocmd FileType jsx noremap <buffer> <c-m> :call JsxBeautify()<cr>
+" for html
+autocmd FileType html noremap <buffer> <c-m> :call HtmlBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
