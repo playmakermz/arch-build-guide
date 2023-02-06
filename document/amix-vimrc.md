@@ -65,6 +65,7 @@ Plug 'othree/html5.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'nathanaelkane/vim-indent-guides'
 
 
 call plug#end()
@@ -111,6 +112,16 @@ let g:user_emmet_leader_key='<c-e>'
 " ============= Autocompletion
 filetype plugin on 
 set omnifunc=syntaxcomplete#Complete
+
+" Vim Indent display
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
+
+" Vim JsBeautify formatter
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
