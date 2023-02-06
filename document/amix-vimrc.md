@@ -81,7 +81,8 @@ nmap <C-q> :q!
 " Exit file 
 nmap <C-s> =G
 " Indentation file, move cursor to the top of file and press C-s 
-
+imap <C-n> <esc>gcc
+" Turn line into comment type
 
 "
 "============== Settings ==============
