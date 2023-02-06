@@ -85,6 +85,7 @@ nmap <C-q> :q!
 nmap <C-s> =G
 " Indentation file, move cursor to the top of file and press C-s 
 imap <C-n> <esc>gcc
+nmap <C-n> <esc>gcc
 " Turn line into comment type
 
 "
@@ -117,11 +118,12 @@ set omnifunc=syntaxcomplete#Complete
 
 " Vim Indent display
 let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkred   ctermbg=3
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgreen ctermbg=4
-hi IndentGuidesOdd  ctermbg=black
-hi IndentGuidesEven ctermbg=darkgrey
+let g:indent_guides_auto_colors = 1
+" Bottom line is for manual configuration
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkred   ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgreen ctermbg=4
+"hi IndentGuidesOdd  ctermbg=black
+"hi IndentGuidesEven ctermbg=darkgrey
 
 " Vim JsBeautify formatter
 " https://github.com/maksimr/vim-jsbeautify
