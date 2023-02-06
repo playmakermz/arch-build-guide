@@ -38,6 +38,7 @@ For using emmet | ctrl + e + leader(,)
 - ":tabnew" open new tab
 - "gt" move around tab
 - <c-m> | ctrl + m for auto format 
+- <c-i> for auto commenting
 
 ## Vim code completion
 must have node js installed and vim plug 
@@ -84,8 +85,8 @@ nmap <C-q> :q!
 " Exit file 
 nmap <C-s> =G
 " Indentation file, move cursor to the top of file and press C-s 
-imap <C-n> <esc>gcc
-nmap <C-n> <esc>gcc
+imap <C-i> <esc>gcc
+nmap <C-i> <esc>gcc
 " Turn line into comment type
 
 "
