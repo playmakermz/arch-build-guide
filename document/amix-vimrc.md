@@ -34,7 +34,8 @@ sudo n stable # untuk install versi stable
 For using emmet | ctrl + e + leader(,)
 - `<C-x>` and `<C-n>` to start select code completion 
 - `<C-n>` to find matches file 
-- "Ctrl + n" for select text auto completion
+- "Ctrl + n" for select next text auto completion
+- <c-p" for selesct previous text auto completion
 - ":tabnew" open new tab
 - "gt" move around tab
 - <c-m> | ctrl + m for auto format 
@@ -162,4 +163,4 @@ autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 ## Refrence 
 - https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim
 - https://stackoverflow.com/questions/10075990/upgrading-node-js-to-latest-version
-
+- http://eclim.org/vim/code_completion.html [ Vim code auto completion ]
