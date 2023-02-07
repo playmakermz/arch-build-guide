@@ -35,11 +35,11 @@ For using emmet | ctrl + e + leader(,)
 - `<C-x>` and `<C-n>` to start select code completion 
 - `<C-n>` to find matches file 
 - "Ctrl + n" for select next text auto completion
-- <c-p" for selesct previous text auto completion
+- `<c-p>` for selesct previous text auto completion
 - ":tabnew" open new tab
 - "gt" move around tab
-- <c-m> | ctrl + m for auto format 
-- <c-i> for auto commenting
+- `<c-m>` | ctrl + m for auto format 
+- `<c-i>` for auto commenting
 
 ## Vim code completion
 must have node js installed and vim plug 
