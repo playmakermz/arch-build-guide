@@ -74,7 +74,6 @@ Plug 'maksimr/vim-jsbeautify'
 
 call plug#end()
 
-colorscheme afterglow
 
 " ================ Mapping ===========
 
@@ -86,44 +85,33 @@ nmap <C-q> :q!
 " Exit file 
 nmap <C-s> =G
 " Indentation file, move cursor to the top of file and press C-s 
-imap <C-i> <esc>gcc
-nmap <C-i> <esc>gcc
+imap <C-l> <esc>gcc
+nmap <C-l> <esc>gcc
 " Turn line into comment type
-
-"
+        
 "============== Settings ==============
+colorscheme afterglow
 set background=dark
 
-" background dark 
+" background dark
 filetype indent on
-set smartindent
-autocmd BufRead,BufWritePre *.sh normal gg=G" 
-
-" auto indent 
-" Type (gg=G)
-" to start indent the whole file 
-" refrence https://unix.stackexchange.com/questions/19945/auto-indent-format-code-for-vim/19963
-
-filetype on 
+filetype on
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
 
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
 
-" vim emmet key 
+" vim emmet key
 let g:user_emmet_leader_key='<c-e>'
 
 " ============= Autocompletion
-filetype plugin on 
+filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 " Vim Indent display
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 1
-" Bottom line is for manual configuration
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkred   ctermbg=3
-"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=darkgreen ctermbg=4
 "hi IndentGuidesOdd  ctermbg=black
 "hi IndentGuidesEven ctermbg=darkgrey
 
@@ -144,8 +132,9 @@ autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
-" Press <C-x> and <C-o> to start autocompletion
-" press <C-n> check the matches file 
+
+
+
 
 
 
