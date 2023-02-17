@@ -36,6 +36,7 @@ For using emmet | ctrl + e + leader(,)
 - `<C-n>` to find matches file 
 - "Ctrl + n" for select next text auto completion
 - `<c-p>` for selesct previous text auto completion
+- "TAB" for sellect auto completion (supertabb)
 - ":tabnew" open new tab
 - "gt" move around tab
 - `<c-m>` | ctrl + m for auto format 
@@ -70,6 +71,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'maksimr/vim-jsbeautify'
+Plug 'ervandew/supertab'
 
 
 call plug#end()
@@ -132,10 +134,8 @@ autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
-
-
-
-
+" Supertabb http://eclim.org/vim/code_completion.html
+let g:SuperTabDefaultCompletionType = 'context'
 
 
 
