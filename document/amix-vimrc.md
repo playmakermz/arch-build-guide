@@ -36,7 +36,7 @@ For using emmet | ctrl + e + leader(,)
 - `<C-n>` to find matches file 
 - "Ctrl + n" for select next text auto completion
 - `<c-p>` for selesct previous text auto completion
-- "TAB" for sellect auto completion (supertabb)
+- "<CR>" | "return button" for sellect auto completion (coc vim)
 - ":tabnew" open new tab
 - "gt" move around tab
 - `<c-m>` | ctrl + m for auto format 
@@ -71,7 +71,6 @@ Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'maksimr/vim-jsbeautify'
-Plug 'ervandew/supertab'
 
 
 call plug#end()
@@ -134,8 +133,17 @@ autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 
 " refrence https://medium.com/vim-drops/css-autocompletion-on-vim-no-plugins-needed-e8df9ce079c7
 
-" Supertabb http://eclim.org/vim/code_completion.html
-let g:SuperTabDefaultCompletionType = 'context'
+
+" coc vim trigger
+" Using <CR> button / Return button
+" https://stackoverflow.com/questions/22142755/what-is-the-meaning-of-a-cr-at-the-end-of-some-vim-mappings
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
+inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+
+
+
+
 
 
 
@@ -153,3 +161,4 @@ let g:SuperTabDefaultCompletionType = 'context'
 - https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim
 - https://stackoverflow.com/questions/10075990/upgrading-node-js-to-latest-version
 - http://eclim.org/vim/code_completion.html [ Vim code auto completion ]
+- https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources [ COC autocompletion ]
