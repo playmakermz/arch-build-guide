@@ -49,6 +49,10 @@ must have node js installed and vim plug
 3. open vim and type in vim console 
 4. `:CocInstall coc-tsserver coc-json coc-html coc-css coc-pyright coc-snippets coc-solargraph coc-json`
 
+## If you want to change formatfile 
+`:set filetype=html`
+- https://stackoverflow.com/questions/459478/correct-indentation-of-html-and-php-using-vim
+
 
 ## My vimrc (~/.vim_runtime/my_configs.vim)
 use this path(~/.vim_runtime/my_configs.vim) not .vimrc
