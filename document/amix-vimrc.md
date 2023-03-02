@@ -40,7 +40,7 @@ For using emmet | ctrl + e + leader(,)
 - ":tabnew" open new tab
 - "gt" move around tab
 - `<c-m>` | ctrl + m for auto format 
-- `<c-i>` for auto commenting
+- `<c-l>` for auto commenting
 
 ## Vim code completion
 must have node js installed and vim plug 
