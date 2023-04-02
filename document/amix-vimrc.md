@@ -57,7 +57,9 @@ must have node js installed and vim plug
 ## My vimrc (~/.vim_runtime/my_configs.vim)
 use this path(~/.vim_runtime/my_configs.vim) not .vimrc
 ( .config/nvim/init.vim ) for nvim
+
 ```
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
@@ -93,7 +95,11 @@ nmap <C-s> =G
 imap <C-l> <esc>gcc
 nmap <C-l> <esc>gcc
 " Turn line into comment type
-        
+nmap <C-z> <esc>zR 
+" Open all folds
+" https://vim.fandom.com/wiki/Folding
+
+
 "============== Settings ==============
 colorscheme afterglow
 set background=dark
@@ -144,7 +150,6 @@ autocmd FileType css noremap <buffer> <c-m> :call CSSBeautify()<cr>
 inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
-
 
 
 
