@@ -95,7 +95,7 @@ nmap <C-s> =G
 imap <C-l> <esc>gcc
 nmap <C-l> <esc>gcc
 " Turn line into comment type
-nmap <C-z> <esc>zR 
+nmap <C-z> <esc>zR<esc>
 " Open all folds
 " https://vim.fandom.com/wiki/Folding
 
