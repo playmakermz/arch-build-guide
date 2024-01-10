@@ -23,7 +23,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 Install Node js 
 ```
 sudo apt install nodejs npm
-npm install n -g
+sudo npm install n -g
 sudo n stable # untuk install versi stable 
 ```
 
