@@ -151,6 +151,9 @@ inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
+" Silent notif
+let g:coc_disable_startup_warning = 1
+
 
 
 
